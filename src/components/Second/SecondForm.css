@@ -1,0 +1,11 @@
+
+  .select {
+    /* Hide the default arrow icon */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: none;
+  }
+  .select:after {
+    display: none;
+  }

@@ -3,7 +3,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="flex justify-center items-center   mt-[300px]">
+    <div className="flex flex-col sm:flex-row  justify-center items-center   mt-[300px]">
       <Image src="/login.png" width={450} height={450} alt="Mountain"></Image>
       <form className="p-10   bg-[#FFFFFF] w-[500px] h-[565px]  ">
         <h1 className="text-[22px] font-[600]">Form title</h1>

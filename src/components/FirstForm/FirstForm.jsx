@@ -3,7 +3,7 @@ import "./FirstForm.css";
 
 const FirstForm = () => {
   return (
-    <div className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] me-[40px] w-[1000px]">
+    <div className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] me-[40px] max-w-fit">
       <h1 className="text-[22px] font-[600]">Form title</h1>
       <p className="leading-6 font-[300px]">
         Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue
@@ -18,7 +18,7 @@ const FirstForm = () => {
         <p>Senectus malesuada suspendisse bibendum elit amet vitae.</p>
       </div>
       <div className="overflow-x-auto mt-10 rounded-lg ">
-        <table className="table table-xs  px-3 py-5 border border-[#c9baba] rounded-[10px]">
+        <table className="table w-full table-xs  px-3 py-5 border border-[#c9baba] rounded-[10px]">
           <thead>
             <tr className="  text-[18px] ">
               <th className="text-center border-r-[1px] border-[#c9baba]  px-3 py-5">
@@ -36,16 +36,16 @@ const FirstForm = () => {
           </thead>
           <tbody>
             <tr className="text-center">
-              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 w-1/4 leading-6">
+              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 sm:w-1/4 leading-6">
                 Etiam purus in
               </td>
-              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 w-1/4 leading-6">
+              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 sm:w-1/4 leading-6">
                 Curabitur donec duis
               </td>
-              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 w-1/4 leading-6">
+              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 sm:w-1/4 leading-6">
                 Morbi pharetra, accumsan
               </td>
-              <td className="flex   gap-2  px-3 py-5 w-1/4">
+              <td className="flex   gap-2  px-3 py-5 sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -65,7 +65,7 @@ const FirstForm = () => {
               </td>
             </tr>
             <tr className="text-center">
-              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 w-1/4 leading-6">
+              <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 sm:w-1/4 leading-6">
                 Duis eget habitant
               </td>
               <td className="border-r-[1px] border-[#c9baba]  px-3 py-5 w-1/4 leading-6">

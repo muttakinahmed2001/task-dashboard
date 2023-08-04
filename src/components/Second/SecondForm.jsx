@@ -3,13 +3,13 @@ import "./SecondForm.css";
 
 const SecondForm = () => {
   return (
-    <div className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] w-[1000px]  ">
+    <div className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] max-w-[870px]">
       <h1 className="text-[22px] font-[600]">Form title</h1>
       <p className="leading-6 font-[300px]">
         Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue
         enim.
       </p>
-      <div className="flex gap-2 mt-3">
+      <div className="flex gap-2 mt-3 max-w-fit">
         <button className="flex border-1 border-[#D97706] gap-2 border py-[5px] px-[10px] bg-[#FDE68A] rounded-lg">
           <Image
             src="/Flag.png"
@@ -28,8 +28,8 @@ const SecondForm = () => {
           Turkish
         </button>
       </div>
-      <div className="mt-5">
-        <div className="form-control">
+      <form className="mt-5">
+        <div className="form-control  sm:w-full ">
           <label className="label">
             <span className="label-text">Label Title</span>
           </label>
@@ -39,8 +39,8 @@ const SecondForm = () => {
             className="input input-bordered"
           />
         </div>
-        <div className="grid grid-cols-3 gap-3 mt-5">
-          <div className="form-control w-full">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5 max-w-fit">
+          <div className="form-control max-w-fit ">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -60,7 +60,7 @@ const SecondForm = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="form-control">
+          <div className="form-control max-w-fit">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -70,7 +70,7 @@ const SecondForm = () => {
               className="input input-bordered"
             />
           </div>{" "}
-          <div className="form-control">
+          <div className="form-control max-w-fit">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -81,7 +81,7 @@ const SecondForm = () => {
             />
           </div>
         </div>
-        <div className="flex gap-3 mt-5">
+        <div className="flex flex-col sm:flex-row gap-3 mt-5 max-w-fit">
           <div className="form-control w-full">
             <label className="label">
               <span className="label-text">Label Title</span>
@@ -112,11 +112,11 @@ const SecondForm = () => {
             className="p-3 border border-[#D4D4D4] rounded-lg"
             name=""
             id=""
-            cols="100"
+            cols="70"
             placeholder="Placeholder Content"
             rows="10"></textarea>
         </div>
-      </div>
+      </form>
     </div>
   );
 };

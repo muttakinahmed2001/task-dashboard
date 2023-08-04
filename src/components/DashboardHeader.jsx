@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const DashboardHeader = () => {
   return (
-    <div className="flex justify-between w-[1060px] items-center p-5   bg-[#FFFFFF] ">
-      <div className="flex items-center gap-3">
+    <div className="flex flex-col md:flex-row  justify-around    items-center p-5   bg-[#FFFFFF]  ">
+      <div className="flex flex-col  md:flex-row justify-start   md:items-center gap-3">
         <h1 className="text-[22px] font-[600]">Add new post</h1>
         <h3> + Add Content</h3>
         <div className="flex gap-2">
@@ -16,7 +16,7 @@ const DashboardHeader = () => {
         </div>
       </div>
 
-      <div className="relative me-3">
+      <div className="relative me-3 mt-3">
         <input
           type="text"
           className="w-[200px] py-2 pl-4   rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500"

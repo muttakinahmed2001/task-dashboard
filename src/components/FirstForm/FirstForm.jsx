@@ -20,7 +20,7 @@ const FirstForm = () => {
         </p>
       </div>
       <div className="overflow-x-auto  rounded-lg ">
-        <table className="table w-full table-xs   border border-[#c9baba] rounded-[10px]">
+        <table className="table  mt-10 table-xs  border border-[#c9baba] rounded-[10px]">
           <thead>
             <tr className="  text-[18px] ">
               <th className="text-center border-r-[1px] border-[#c9baba]  ">

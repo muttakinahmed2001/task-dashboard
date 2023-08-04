@@ -3,7 +3,7 @@ import "./SecondForm.css";
 
 const SecondForm = () => {
   return (
-    <div className="mt-10 p-6  rounded-lg ms-2 sm:ms-4border   bg-slate-50 w-full ">
+    <div className="mt-10 p-6  rounded-lg ms-2 sm:ms-4 border   bg-slate-50 w-full ">
       <h1 className="text-xl sm:text-2xl font-[600]">Form title</h1>
       <p className="leading-6 text-xs sm:text-base font-[300]">
         Sed tortor, sed velit ridiculus ipsum pharetra <br /> lacus odio gravida

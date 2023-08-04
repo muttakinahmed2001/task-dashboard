@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TotalNumbers = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-center gap-3 mt-5 p-10  max-w-fit">
+    <div className="flex flex-col sm:flex-row justify-center gap-3  p-10  ">
       <div className="flex gap-3  bg-[white] p-[20px] w-[220px] rounded-lg ">
         <Image
           src="/shopping-bag.png"

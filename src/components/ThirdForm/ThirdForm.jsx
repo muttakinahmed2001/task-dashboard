@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ThirdForm = () => {
   return (
-    <div className="flex justify-center flex-col sm:flex-row   ">
+    <div className="flex justify-center items-center flex-col sm:flex-row   ">
       <div className="   mt-10 p-6  rounded-lg ms-12 bg-[#FFFFFF] me-[40px] w-[540px]  ">
         <h1 className="text-[22px] font-[600]">Form title</h1>
         <p className="leading-6 font-[300px]">

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-screen-xl mx-auto w-full flex  md:justify-between     items-center p-[30px] h-[55px] text-[white] bg-[#171717] ">
+    <nav className="px-12      flex  gap-10 sm:justify-between    items-center   h-[55px] text-[white] bg-[#171717] ">
       <button
         className="lg:hidden text-white p-2 focus:outline-none"
         onClick={toggleDropdown}>
@@ -85,13 +85,13 @@ const Navbar = () => {
 
       <ul
         className={`${
-          isDropdownOpen ? "flex flex-col gap-4" : "hidden"
+          isDropdownOpen ? "flex flex-col justify-start z-[9] gap-4" : "hidden"
         } lg:hidden absolute top-[55px] left-0 bg-[#171717] w-full p-4`}>
-        <li className="flex items-center justify-center gap-2">
+        <li className="flex items-center   gap-2">
           <Image src={"/home.png"} width={18} height={18} alt="Home" />
           Home
         </li>
-        <li className="flex items-center justify-center gap-2">
+        <li className="flex items-center  gap-2">
           <Image
             src={"/contents-icon.png"}
             width={18}
@@ -100,7 +100,7 @@ const Navbar = () => {
           />
           Contents
         </li>
-        <li className="flex items-center justify-center gap-2">
+        <li className="flex items-center  gap-2">
           <Image
             src={"/categories-icon.png"}
             width={18}
@@ -109,7 +109,7 @@ const Navbar = () => {
           />
           Categories
         </li>
-        <li className="flex items-center justify-center gap-2">
+        <li className="flex items-center  gap-2">
           <Image
             src={"/settings-icon.png"}
             width={18}
@@ -120,11 +120,11 @@ const Navbar = () => {
         </li>
       </ul>
 
-      <div className="flex gap-2 p-3">
+      <div className="flex items-center gap-2 p-3">
         <Link className="btn btn-sm my-2" href={"/login"}>
           Login
         </Link>
-        <div className="flex gap-2 items-center border rounded-full p-3 text-black bg-white">
+        <div className="flex gap-2 items-center border rounded-full m-3 p-2 text-black bg-white">
           <Image src={"/profile.png"} width={30} height={30} alt="profile" />
           <h1>İsmail İhsan Bülbül</h1>
         </div>

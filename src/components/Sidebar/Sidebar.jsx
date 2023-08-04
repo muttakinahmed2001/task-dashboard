@@ -9,13 +9,13 @@ const Sidebar = () => {
     setShow(!show);
   };
   return (
-    <div className="drawer lg:drawer-open">
+    <div className="drawer lg:drawer-open z-[9]">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col  ">
         <label
           htmlFor="my-drawer-2"
           className="btn  btn-sm  drawer-button lg:hidden mx-2 mt-5">
-          Open Sidebar
+          <p>&lt;</p>
         </label>
       </div>
       <div className="drawer-side">

@@ -61,7 +61,7 @@ const Sidebar = () => {
                   </div>
                 </summary>
 
-                <ul className="p-2 shadow menu   z-[1]   rounded-box  ">
+                <ul className="p-2  menu   z-[1]   rounded-box  ">
                   <li>
                     <a>Commarce</a>
                   </li>

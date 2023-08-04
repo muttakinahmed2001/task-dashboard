@@ -23,7 +23,7 @@ const DashboardHeader = () => {
           placeholder="Search content.."
         />
 
-        <div className="absolute top-1/2 transform -translate-y-1/2 right-3">
+        <div className="absolute top-1/2 transform -translate-y-1/2 right-0 sm:right-3">
           <Image
             src="/search.png"
             width={18}

@@ -3,21 +3,23 @@ import "./FirstForm.css";
 
 const FirstForm = () => {
   return (
-    <div className="mt-10 p-10 w-full  rounded-lg  ms-6 bg-[#FFFFFF]  ">
+    <div className="mt-10 p-10 w-full  rounded-lg  ms-2 sm:ms-4 border  bg-slate-50 ">
       <h1 className="text-[22px] font-[600]">Form title</h1>
-      <p className="leading-6 font-[300px]">
-        Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue
-        enim.
+      <p className="leading-6 font-[300px] text-sm sm:text-base">
+        Sed tortor, sed velit ridiculus ipsum <br /> pharetra lacus odio gravida
+        augue enim.
       </p>
-      <div className="flex gap-2 border border-red-500 p-[15px] mt-5 rounded-lg bg-[#FEF2F2] ">
+      <div className="flex gap-2 w-1/2 sm:w-full border border-red-500 p-[10px] sm:p-[15px] mt-5 rounded-lg bg-[#FEF2F2] ">
         <Image
           src="/info-circle.png"
           width={24}
           height={24}
           alt="info-circle"></Image>
-        <p>Senectus malesuada suspendisse bibendum elit amet vitae.</p>
+        <p className="text-xs sm:text-base">
+          Senectus malesuada suspendisse bibendum elit amet vitae.
+        </p>
       </div>
-      <div className="overflow-x-auto mt-10 rounded-lg ">
+      <div className="overflow-x-auto  rounded-lg ">
         <table className="table w-full table-xs   border border-[#c9baba] rounded-[10px]">
           <thead>
             <tr className="  text-[18px] ">
@@ -45,7 +47,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Morbi pharetra, accumsan
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row      gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -74,7 +76,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Commodo eget scelerisque
               </td>
-              <td className="flex   gap-2   w-1/4">
+              <td className="flex flex-col sm:flex-row   items-center   gap-2 w-full   sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -103,7 +105,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Tortor habitant sit
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -132,7 +134,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Quam semper quis
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -161,7 +163,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Egestas non sociis
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -190,7 +192,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Pellentesque facilisis massa
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -219,7 +221,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Ut feugiat egestas
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -248,7 +250,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Pharetra id sit
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"
@@ -277,7 +279,7 @@ const FirstForm = () => {
               <td className="border-r-[1px] border-[#c9baba]   w-full sm:w-1/4 leading-6">
                 Pharetra id sit
               </td>
-              <td className="flex   gap-2   w-full sm:w-1/4">
+              <td className="flex flex-col sm:flex-row  items-center   gap-2   w-full sm:w-1/4">
                 <button className="btn bg-[#1D4ED8] text-white btn-xs">
                   <Image
                     src="/edit.png"

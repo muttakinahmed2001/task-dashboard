@@ -3,11 +3,11 @@ import "./SecondForm.css";
 
 const SecondForm = () => {
   return (
-    <div className="mt-10 p-10  rounded-lg ms-6 bg-[#FFFFFF] w-full ">
+    <div className="mt-10 p-6  rounded-lg ms-2 sm:ms-4border   bg-slate-50 w-full ">
       <h1 className="text-xl sm:text-2xl font-[600]">Form title</h1>
-      <p className="leading-6 font-[300]">
-        Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue
-        enim.
+      <p className="leading-6 text-xs sm:text-base font-[300]">
+        Sed tortor, sed velit ridiculus ipsum pharetra <br /> lacus odio gravida
+        augue enim.
       </p>
       <div className="flex gap-2 mt-3 ">
         <button className="flex border-1 border-[#D97706] gap-2 border py-[5px] px-[10px] bg-[#FDE68A] rounded-lg">
@@ -29,7 +29,7 @@ const SecondForm = () => {
         </button>
       </div>
       <form className="mt-5 w-full">
-        <div className="form-control w-full   ">
+        <div className="form-control w-1/2 sm:w-full  ">
           <label className="label">
             <span className="label-text">Label Title</span>
           </label>
@@ -40,13 +40,13 @@ const SecondForm = () => {
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-5 ">
-          <div className="form-control w-full max-w-fit ">
+          <div className="form-control w-1/2 sm:w-full ">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
 
             <div className="input-group relative  ">
-              <select className="select select-bordered  rounded-lg font-normal">
+              <select className="select select-bordered  w-full  rounded-lg font-normal">
                 <option disabled selected>
                   Choose
                 </option>
@@ -60,7 +60,7 @@ const SecondForm = () => {
               </div>
             </div>
           </div>{" "}
-          <div className="form-control w-full ">
+          <div className="form-control w-1/2 sm:w-full">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -70,7 +70,7 @@ const SecondForm = () => {
               className="input input-bordered"
             />
           </div>{" "}
-          <div className="form-control w-full ">
+          <div className="form-control w-1/2 sm:w-full">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -82,7 +82,7 @@ const SecondForm = () => {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 mt-5 ">
-          <div className="form-control w-full ">
+          <div className="form-control w-1/2 sm:w-full">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -92,7 +92,7 @@ const SecondForm = () => {
               className="input input-bordered"
             />
           </div>
-          <div className="form-control w-full ">
+          <div className="form-control w-1/2 sm:w-full">
             <label className="label">
               <span className="label-text">Label Title</span>
             </label>
@@ -103,7 +103,7 @@ const SecondForm = () => {
             />
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 w-1/2 sm:w-full">
           {" "}
           <label className="label">
             <span className="label-text">Label Title</span>
@@ -112,7 +112,6 @@ const SecondForm = () => {
             className="p-3 border border-[#D4D4D4] rounded-lg"
             name=""
             id=""
-            cols="50"
             placeholder="Placeholder Content"
             rows="10"></textarea>
         </div>

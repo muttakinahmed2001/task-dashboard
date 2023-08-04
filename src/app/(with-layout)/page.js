@@ -6,7 +6,7 @@ import TotalNumbers from "@/components/TotalNumbers";
 
 const HomePage = () => {
   return (
-    <div className="container mx-auto bg-slate-100">
+    <div className="container mx-auto bg-slate-50">
       <DashboardHeader> </DashboardHeader>
       <TotalNumbers></TotalNumbers>
       <FirstForm></FirstForm>

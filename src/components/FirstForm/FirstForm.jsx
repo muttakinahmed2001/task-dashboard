@@ -3,7 +3,9 @@ import "./FirstForm.css";
 
 const FirstForm = () => {
   return (
-    <div className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] me-[40px] max-w-fit">
+    <div
+      style={{ width: "100%" }}
+      className="mt-10 p-10  rounded-lg ms-12 bg-[#FFFFFF] me-[40px]">
       <h1 className="text-[22px] font-[600]">Form title</h1>
       <p className="leading-6 font-[300px]">
         Sed tortor, sed velit ridiculus ipsum pharetra lacus odio gravida augue

@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="px-12      flex  gap-10 sm:justify-between    items-center   h-[55px] text-[white] bg-[#171717] ">
+    <nav className="px-12      flex justify-start   sm:justify-between    sm:items-center   h-[55px] text-[white] bg-[#171717] ">
       <button
         className="lg:hidden text-white p-2 focus:outline-none"
         onClick={toggleDropdown}>
@@ -124,7 +124,7 @@ const Navbar = () => {
         <Link className="btn btn-sm my-2" href={"/login"}>
           Login
         </Link>
-        <div className="flex gap-2 items-center border rounded-full m-3 p-2 text-black bg-white">
+        <div className="flex gap-2 items-center border rounded-full me-3 p-2 text-black bg-white">
           <Image src={"/profile.png"} width={30} height={30} alt="profile" />
           <h1>İsmail İhsan Bülbül</h1>
         </div>

@@ -9,14 +9,14 @@ const DashboardHeader = () => {
         <div className="flex gap-2">
           <Image
             src={"/black-settings.png"}
-            width={18}
-            height={18}
+            width={16}
+            height={16}
             alt="settings-icon"></Image>
           <h3>Settings</h3>
         </div>
       </div>
 
-      <div className="flex items-center  me-3 mt-3 w-1/2 relative">
+      <div className="flex items-center  me-3 mt-3 w-1/3 sm:1/3 relative">
         <input
           type="text"
           className="py-2 px-4 rounded-lg border flex-grow"
